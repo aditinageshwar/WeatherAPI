@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Weather UPI</title>
+<link rel="icon" href="icon.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <p id="main">Hey! Welcome</p>
+  <div class="container">
+     <h1>~Weather App~</h1>
+     <div id="togglepart">
+        <p id="modetxt">Dark</p>
+        <img id="modeimg" src="moon.png">
+      </div>
+
+     <div id="search">
+        <input type="text" placeholder="Enter city name"> 
+        <button><i class="fa fa-search"></i></button>
+     </div>
+
+     <img id="frontimg" src="front.png">
+     <p id="time"> </p>
+     <p id="city"><strong>India</strong></p>
+     <h2>25.4°C</h2>
+
+     <div id="foot">
+       <div class="col">
+          <img id="humidity" src="humidity.png">
+          <div class="data">
+            <h3 id="humidityTemp">65%</h3>
+            <p>Humidity</p>
+          </div>
+       </div>
+       <div class="col">
+          <img id="wind" src="wind.png"> 
+          <div class="data">
+            <h3 id="windSpeed">5.8 km/h</h3>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+     </div>
+  </div>
+<script src="weather.js"></script>                    <!-- working on javascript after loading the web page -->
+</body>
+</html>
